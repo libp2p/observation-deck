@@ -46,9 +46,28 @@
     "styled-components": "^4.4.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "@testing-library/jest-dom": "^5.8.0",
     "@testing-library/react": "^9.4.0",
+    "babel": "^6.23.0",
+    "babel-jest": "^24.9.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "core-js": "^3.6.5",
     "create-react-app": "3.2.0",
-    "gh-pages": "^2.1.1"
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.1.2",
+    "gh-pages": "^2.1.1",
+    "husky": "^3.0.9",
+    "jest": "^24.9.0",
+    "jest-styled-components": "^6.3.4",
+    "lint-staged": "^9.4.2",
+    "prettier": "^1.18.2",
+    "raw-loader": "^3.1.0"
   },
   "browserslist": {
     "production": [
@@ -62,15 +81,25 @@
       "last 1 safari version"
     ]
   },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run lint"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "git add"
+    ]
+  },
   "jest": {
     "transform": {
-      "\\.(mock|jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/../../__jest__/filePaths.js",
-      "\\.js$": [
-        "babel-jest",
-        {
-          "rootMode": "upward"
-        }
-      ]
+      "\\.(mock|jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__jest__/filePaths.js",
+      "\\.js$": "babel-jest"
     }
   }
 }

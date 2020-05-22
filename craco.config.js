@@ -5,28 +5,26 @@ const path = require('path')
 const fs = require('fs')
 const cracoBabelLoader = require('craco-babel-loader')
 const cracoRawLoaderPlugin = require('@baristalabs/craco-raw-loader')
-const { widgetPackageNames } = require('./src/widgets')
 
 const appDirectory = fs.realpathSync(process.cwd())
 const resolvePackage = relativePath => path.resolve(appDirectory, relativePath)
 
 const includes = [
-  /observer-catalogue/,
-  /observer-shell/,
-  /observer-sdk/,
-  ...widgetPackageNames
-]
+  'catalogue',
+  'shell',
+  'sdk',
+  'connections-table',
+  'streams-table',
+  'events-table',
+].map(name => resolvePackage(`node_modules/@nearform/observer-${name}`))
 
 module.exports = {
   babel: { plugins: ['babel-plugin-styled-components'] },
   plugins: [
     {
       plugin: {
-        overrideJestConfig: ({ jestConfig, context: { rootDir } }) => {
-          jestConfig.transform['^.+\\.(js|jsx|ts|tsx)$'] = [
-            'babel-jest',
-          ]
-
+        overrideJestConfig: ({ jestConfig }) => {
+          jestConfig.transform['^.+\\.(js|jsx|ts|tsx)$'] = ['babel-jest']
           return jestConfig
         },
       },

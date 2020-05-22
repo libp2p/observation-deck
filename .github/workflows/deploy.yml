@@ -1,0 +1,33 @@
+name: Deploy master or staging to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+      - staging
+
+jobs:
+  build:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      # checkout current branch
+      - uses: actions/checkout@v1
+        with:
+          ref: ${{ github.ref }}
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+
+      - name: Initialise repo
+        run: yarn install
+
+      - name: Run deploy script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git config user.name "$GITHUB_ACTOR"
+          git remote set-url origin "https://fregante:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
+          npm run deploy
