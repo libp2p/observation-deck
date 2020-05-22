@@ -7,10 +7,7 @@ import widgets from './widgets.js'
 const title = 'LibP2P Observation Deck'
 
 ReactDOM.render(
-  <Catalogue
-    widgets={widgets}
-    title={title}
-  />,
+  <Catalogue widgets={widgets} title={title} />,
   document.getElementById('root')
 )
 serviceWorker.register()
