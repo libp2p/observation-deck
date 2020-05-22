@@ -19,7 +19,7 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "CI=true craco test",
+    "test": "CI=true craco test --passWithNoTests",
     "test:watch": "craco test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
