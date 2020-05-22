@@ -15,9 +15,9 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '12.x'
-
+          registry-url: 'https://npm.pkg.github.com'
       - name: Initialise repo
-        run: npm install
+        run: npm install --ignore-scripts
         env:
           NODE_AUTH_TOKEN: ${{ secrets.READ_PACKAGES_TOKEN }}
       - name: Run test scripts
