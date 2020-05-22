@@ -20,22 +20,26 @@
     "test:watch": "craco test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "lint": "eslint . --ext .js",
+    "lint-fix": "eslint . --ext .js --fix",
+    "prettier": "prettier --check './**/*.js'",
+    "prettier-fix": "prettier --write './**/*.js'"
   },
   "peerDependencies": {
-    "@nearform/observer-data": "^0.0.1",
-    "@nearform/observer-shell": "^0.0.1",
-    "@nearform/observer-sdk": "^0.0.1",
     "webpack": "^4.41.0"
   },
   "dependencies": {
     "@baristalabs/craco-raw-loader": "^1.1.1",
     "@craco/craco": "^5.6.4",
-    "@nearform/observer-catalogue": "^0.0.2",
+    "@nearform/observer-catalogue": "^0.0.3",
     "@nearform/observer-connections-table": "^0.0.2",
+    "@nearform/observer-data": "^0.0.2",
     "@nearform/observer-dht-buckets": "^0.0.2",
     "@nearform/observer-events-table": "^0.0.2",
     "@nearform/observer-samples": "^0.0.2",
+    "@nearform/observer-sdk": "^0.0.2",
+    "@nearform/observer-shell": "^0.0.2",
     "@nearform/observer-streams-table": "^0.0.2",
     "arraybuffer-loader": "^1.0.8",
     "craco-babel-loader": "^0.1.4",

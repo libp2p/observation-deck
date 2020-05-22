@@ -17,7 +17,8 @@ jobs:
           node-version: '12.x'
 
       - name: Initialise repo
-        run: yarn install
-
+        run: npm install
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.READ_PACKAGES_TOKEN }}
       - name: Run test scripts
         run: npm run test
