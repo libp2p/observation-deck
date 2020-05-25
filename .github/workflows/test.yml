@@ -1,0 +1,24 @@
+name: Run tests
+
+on: [push]
+
+jobs:
+  build:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      # checkout current branch
+      - uses: actions/checkout@v1
+        with:
+          ref: ${{ github.ref }}
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+          registry-url: 'https://npm.pkg.github.com'
+      - name: Initialise repo
+        run: npm install --ignore-scripts
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.READ_PACKAGES_TOKEN }}
+      - name: Run test scripts
+        run: npm run test

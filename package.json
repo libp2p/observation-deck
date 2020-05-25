@@ -1,0 +1,112 @@
+{
+  "name": "libp2p-observation-deck",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "version": "0.0.1",
+  "description": "Public catalogue of widgets for visualising LibP2P introspection data, built on libp2p-observer",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nearform/libp2p-observation-deck.git"
+  },
+  "author": "Nearform",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nearform/libp2p-observation-deck/issues"
+  },
+  "homepage": "https://github.com/nearform/libp2p-observation-deck#readme",
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "CI=true craco test --passWithNoTests",
+    "test:watch": "craco test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "lint": "eslint . --ext .js",
+    "lint-fix": "eslint . --ext .js --fix",
+    "prettier": "prettier --check './**/*.js'",
+    "prettier-fix": "prettier --write './**/*.js'"
+  },
+  "peerDependencies": {
+    "webpack": "^4.41.0"
+  },
+  "dependencies": {
+    "@baristalabs/craco-raw-loader": "^1.1.1",
+    "@craco/craco": "^5.6.4",
+    "@nearform/observer-catalogue": "^0.0.3",
+    "@nearform/observer-connections-table": "^0.0.2",
+    "@nearform/observer-data": "^0.0.2",
+    "@nearform/observer-dht-buckets": "^0.0.2",
+    "@nearform/observer-events-table": "^0.0.2",
+    "@nearform/observer-samples": "^0.0.2",
+    "@nearform/observer-sdk": "^0.0.2",
+    "@nearform/observer-shell": "^0.0.2",
+    "@nearform/observer-streams-table": "^0.0.2",
+    "arraybuffer-loader": "^1.0.8",
+    "craco-babel-loader": "^0.1.4",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-markdown": "^4.2.2",
+    "react-scripts": "3.2.0",
+    "styled-components": "^4.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "@testing-library/jest-dom": "^5.8.0",
+    "@testing-library/react": "^9.4.0",
+    "babel": "^6.23.0",
+    "babel-jest": "^24.9.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "core-js": "^3.6.5",
+    "create-react-app": "3.2.0",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.1.2",
+    "gh-pages": "^2.1.1",
+    "husky": "^3.0.9",
+    "jest": "^24.9.0",
+    "jest-styled-components": "^6.3.4",
+    "lint-staged": "^9.4.2",
+    "prettier": "^1.18.2",
+    "raw-loader": "^3.1.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run lint"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "jest": {
+    "transform": {
+      "\\.(mock|jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__jest__/filePaths.js",
+      "\\.js$": "babel-jest"
+    }
+  }
+}
