@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.js": "/nearform/libp2p-observation-deck/static/js/main.962f9bcf.chunk.js",
+    "main.js.map": "/nearform/libp2p-observation-deck/static/js/main.962f9bcf.chunk.js.map",
+    "runtime-main.js": "/nearform/libp2p-observation-deck/static/js/runtime-main.c75460e5.js",
+    "runtime-main.js.map": "/nearform/libp2p-observation-deck/static/js/runtime-main.c75460e5.js.map",
+    "static/js/2.a6636292.chunk.js": "/nearform/libp2p-observation-deck/static/js/2.a6636292.chunk.js",
+    "static/js/2.a6636292.chunk.js.map": "/nearform/libp2p-observation-deck/static/js/2.a6636292.chunk.js.map",
+    "index.html": "/nearform/libp2p-observation-deck/index.html",
+    "precache-manifest.4b9781383ba6c1116bca8faa179209cc.js": "/nearform/libp2p-observation-deck/precache-manifest.4b9781383ba6c1116bca8faa179209cc.js",
+    "service-worker.js": "/nearform/libp2p-observation-deck/service-worker.js",
+    "static/media/IBMPlexMono-Light.otf": "/nearform/libp2p-observation-deck/static/media/IBMPlexMono-Light.f9679767.otf",
+    "static/media/IBMPlexMono-SemiBold.otf": "/nearform/libp2p-observation-deck/static/media/IBMPlexMono-SemiBold.dbf7ec0b.otf",
+    "static/media/IBMPlexMono-Text.otf": "/nearform/libp2p-observation-deck/static/media/IBMPlexMono-Text.3ca905f2.otf",
+    "static/media/IBMPlexSans-Bold.otf": "/nearform/libp2p-observation-deck/static/media/IBMPlexSans-Bold.b7601880.otf",
+    "static/media/IBMPlexSans-ExtraLight.otf": "/nearform/libp2p-observation-deck/static/media/IBMPlexSans-ExtraLight.2c560953.otf",
+    "static/media/IBMPlexSans-Light.otf": "/nearform/libp2p-observation-deck/static/media/IBMPlexSans-Light.074e5648.otf",
+    "static/media/IBMPlexSans-Medium.otf": "/nearform/libp2p-observation-deck/static/media/IBMPlexSans-Medium.74982386.otf",
+    "static/media/IBMPlexSans-Regular.otf": "/nearform/libp2p-observation-deck/static/media/IBMPlexSans-Regular.177a43ac.otf",
+    "static/media/IBMPlexSans-SemiBold.otf": "/nearform/libp2p-observation-deck/static/media/IBMPlexSans-SemiBold.1f4b8be3.otf",
+    "static/media/IBMPlexSans-Text.otf": "/nearform/libp2p-observation-deck/static/media/IBMPlexSans-Text.9ac3a2a3.otf",
+    "static/media/Nexa-Bold.otf": "/nearform/libp2p-observation-deck/static/media/Nexa-Bold.254370af.otf",
+    "static/media/Nexa-Light.otf": "/nearform/libp2p-observation-deck/static/media/Nexa-Light.5c6f5c99.otf",
+    "static/media/sample-1min.png": "/nearform/libp2p-observation-deck/static/media/sample-1min.7e73cafb.png",
+    "static/media/sample-1min.mock": "/nearform/libp2p-observation-deck/static/media/sample-1min.89e9e4bd.mock",
+    "static/media/sample-2min.png": "/nearform/libp2p-observation-deck/static/media/sample-2min.1041f345.png",
+    "static/media/sample-2min.mock": "/nearform/libp2p-observation-deck/static/media/sample-2min.9d7b38f9.mock",
+    "static/media/sample-3min.png": "/nearform/libp2p-observation-deck/static/media/sample-3min.e30f2a1b.png",
+    "static/media/sample-3min.mock": "/nearform/libp2p-observation-deck/static/media/sample-3min.f1d182fa.mock",
+    "static/media/screenshot.png": "/nearform/libp2p-observation-deck/static/media/screenshot.e1a6ab62.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c75460e5.js",
+    "static/js/2.a6636292.chunk.js",
+    "static/js/main.962f9bcf.chunk.js"
+  ]
+}
