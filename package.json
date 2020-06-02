@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/nearform/libp2p-observation-deck/issues"
   },
-  "homepage": "https://github.com/nearform/libp2p-observation-deck#readme",
+  "homepage": "https://nearform.github.io/libp2p-observation-deck",
   "scripts": {
     "start": "craco start",
     "build": "craco build",
