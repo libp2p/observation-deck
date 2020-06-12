@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bedd76023df38f23afed91785cae8e37",
+    "revision": "9ac20a83753da7e11e2e9f749f75e993",
     "url": "/observation-deck/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/observation-deck/static/js/2.b8149a00.chunk.js"
   },
   {
-    "revision": "71cc14000ca177d6f9b4",
-    "url": "/observation-deck/static/js/main.16568820.chunk.js"
+    "revision": "564039fcb98d3ec4a8b1",
+    "url": "/observation-deck/static/js/main.bed7d12b.chunk.js"
   },
   {
     "revision": "8c4dbcdb4c74900250d9",
