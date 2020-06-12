@@ -16,7 +16,8 @@ const includes = [
   'connections-table',
   'streams-table',
   'events-table',
-].map(name => resolvePackage(`node_modules/@nearform/observer-${name}`))
+  'dht-buckets',
+].map(name => resolvePackage(`node_modules/@libp2p/observer-${name}`))
 
 module.exports = {
   babel: { plugins: ['babel-plugin-styled-components'] },
