@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/observation-deck/static/js/main.bed7d12b.chunk.js",
-    "main.js.map": "/observation-deck/static/js/main.bed7d12b.chunk.js.map",
+    "main.js": "/observation-deck/static/js/main.a56e247e.chunk.js",
+    "main.js.map": "/observation-deck/static/js/main.a56e247e.chunk.js.map",
     "runtime-main.js": "/observation-deck/static/js/runtime-main.8a063c01.js",
     "runtime-main.js.map": "/observation-deck/static/js/runtime-main.8a063c01.js.map",
-    "static/js/2.b8149a00.chunk.js": "/observation-deck/static/js/2.b8149a00.chunk.js",
-    "static/js/2.b8149a00.chunk.js.map": "/observation-deck/static/js/2.b8149a00.chunk.js.map",
+    "static/js/2.c5b0b522.chunk.js": "/observation-deck/static/js/2.c5b0b522.chunk.js",
+    "static/js/2.c5b0b522.chunk.js.map": "/observation-deck/static/js/2.c5b0b522.chunk.js.map",
     "index.html": "/observation-deck/index.html",
-    "precache-manifest.6255caf0073c4700895426002499ad74.js": "/observation-deck/precache-manifest.6255caf0073c4700895426002499ad74.js",
+    "precache-manifest.623ba2546bfd6db199488c83d808fd54.js": "/observation-deck/precache-manifest.623ba2546bfd6db199488c83d808fd54.js",
     "service-worker.js": "/observation-deck/service-worker.js",
     "static/media/IBMPlexMono-Light.otf": "/observation-deck/static/media/IBMPlexMono-Light.f9679767.otf",
     "static/media/IBMPlexMono-SemiBold.otf": "/observation-deck/static/media/IBMPlexMono-SemiBold.dbf7ec0b.otf",
@@ -31,7 +31,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8a063c01.js",
-    "static/js/2.b8149a00.chunk.js",
-    "static/js/main.bed7d12b.chunk.js"
+    "static/js/2.c5b0b522.chunk.js",
+    "static/js/main.a56e247e.chunk.js"
   ]
 }
