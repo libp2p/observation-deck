@@ -21,11 +21,11 @@ As part of the libp2p project, our community guidelines echo [those of the libp2
 
 The libp2p Observtion Deck is provides a catalogue of widgets, built on [libp2p Observer](https://github.com/libp2p/observer-toolkit) toolkits. Consult and [contribute to libp2p Observer](https://github.com/libp2p/observer-toolkit/blob/master/docs/contribute.md) repo instead for anything to do with the following:
 
- 1. The UI of the libp2p Observeration Deck site, for selecting and browsing widgets, which is built using the [libp2p Observer Catalogue]() package.
- 2. The control panel UI used for controlling data, including the timeline and controls such as Export Data, which comes from the [libp2p Observer Shell]()
- 3. The underlying data management model behind widgets in the libp2p Observation Deck, which comes from the [libp2p Observer SDK]()
- 4. The data format and protobuf schema used for the libp2p Introspection data consumed by the libp2p Observation Deck widgets, which comes from the [libp2p Observer proto]() package and follows a schema shared with the libp2p Introspection module.
- 5. Mock data samples included as "Samples" in the libp2p Observation Deck, which come from the [libp2p Observer Samples]() package.
+ 1. The UI of the libp2p Observeration Deck site, for selecting and browsing widgets, which is built using the [libp2p observer Catalogue](https://github.com/libp2p/observer-toolkit/tree/master/packages/catalogue) package.
+ 2. The control panel UI used for controlling data, including the timeline and controls such as Export Data, which comes from the [libp2p Observer Shell](https://github.com/libp2p/observer-toolkit/tree/master/packages/shell)
+ 3. The underlying data management model behind widgets in the libp2p Observation Deck, which comes from the [libp2p Observer SDK](https://github.com/libp2p/observer-toolkit/tree/master/packages/sdk)
+ 4. The data format and protobuf schema used for the libp2p Introspection data consumed by the libp2p Observation Deck widgets, which comes from the [libp2p Observer proto](https://github.com/libp2p/observer-toolkit/tree/master/packages/proto) package and follows a schema shared with the libp2p Introspection module.
+ 5. Mock data samples included as "Samples" in the libp2p Observation Deck, which come from the [libp2p Observer Samples](https://github.com/libp2p/observer-toolkit/tree/master/packages/samples) package.
 
 This repository is primarily intended for:
 
@@ -38,7 +38,7 @@ This repository is primarily intended for:
 We recommend the following workflow:
 
  1. **Research and discussion.** Before starting work, it's a good idea to check that your efforts won't be wasted duplicating an existing project or following an unworkable path. We recommend searching existing discussions and, if something similar to your idea isn't already under discussion, posting an issue describing what you intend to do.
- 2. **Creating a widget.** Use the [libp2p Observer create-widget]() script to get started, following the linked documentation. This sets up a libp2p Observer widget and configures developer tools and environments allowing you to immediately start coding and connect to libp2p Introspection data in a browser.
+ 2. **Creating a widget.** Use the [libp2p Observer create-widget](https://github.com/libp2p/observer-toolkit/tree/master/packages/create-widget) script to get started, following the linked documentation. This sets up a libp2p Observer widget and configures developer tools and environments allowing you to immediately start coding and connect to libp2p Introspection data in a browser.
  3. **Building a widget.** Documentation for building the widget is provided on the [libp2p Observer repo](https://github.com/libp2p/observer-toolkit), particularly, the [developer guide](https://github.com/libp2p/observer-toolkit/blob/master/docs/developer-guide.md) and documentation for individual [packages](https://github.com/libp2p/observer-toolkit/tree/master/packages).
  4. **Post it to GitHub and NPM.** The GitHub repository should be on your own account (or, company account), and it should be published to NPM as a public package.
  5. **(Optional) Post an issue here requesting community feedback.** This is a good way to get visibility for your work, early feedback and assistance, and reduce the likelihood of effort being duplicated or wasted.
