@@ -1,0 +1,1 @@
+If you want to make your own widget, or contribute to an existing project, see our [contribution guide](https://github.com/libp2p/observation-deck/blob/master/contribute.md). We have quickstart scripts and tooling to get widget projects started, and a review process for inclusion in this catalogue.

@@ -1,0 +1,1 @@
+The libp2p observation deck is a catalogue of widgets for visualising libp2p introspection data, built using the [observer-toolkit](https://github.com/libp2p/observer-toolkit). Connect to a libp2p node via a websocket, or try the widgets out using our pre-made data samples.
