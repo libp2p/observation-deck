@@ -1,2 +1,0 @@
-(this["webpackJsonplibp2p-observation-deck"]=this["webpackJsonplibp2p-observation-deck"]||[]).push([[0],{197:function(e,t,n){e.exports=n(327)},227:function(e,t){},229:function(e,t){},327:function(e,t,n){"use strict";n.r(t);var i=n(0),o=n.n(i),r=n(66),s=n.n(r),c=n(92),a=[n(154),n(153),n(155)];s.a.render(o.a.createElement(c.a,{widgets:a,title:"LibP2P Observation Deck"}),document.getElementById("root")),c.b.register()}},[[197,1,2]]]);
-//# sourceMappingURL=main.962f9bcf.chunk.js.map
