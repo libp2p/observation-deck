@@ -1,21 +1,21 @@
 {
-  "name": "libp2p-observation-deck",
+  "name": "observation-deck",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
   "version": "0.0.1",
-  "description": "Public catalogue of widgets for visualising LibP2P introspection data, built on libp2p-observer",
+  "description": "Public catalogue of widgets for visualising libp2p introspection data, built on observer-toolkit",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nearform/libp2p-observation-deck.git"
+    "url": "git+https://github.com/libp2p/observation-deck.git"
   },
   "author": "Nearform",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nearform/libp2p-observation-deck/issues"
+    "url": "https://github.com/libp2p/observation-deck/issues"
   },
-  "homepage": "https://nearform.github.io/libp2p-observation-deck",
+  "homepage": "https://libp2p.github.io/observation-deck",
   "scripts": {
     "start": "craco start",
     "build": "craco build",
@@ -35,15 +35,15 @@
   "dependencies": {
     "@baristalabs/craco-raw-loader": "^1.1.1",
     "@craco/craco": "^5.6.4",
-    "@nearform/observer-catalogue": "^0.0.3",
-    "@nearform/observer-connections-table": "^0.0.2",
-    "@nearform/observer-data": "^0.0.2",
-    "@nearform/observer-dht-buckets": "^0.0.2",
-    "@nearform/observer-events-table": "^0.0.2",
-    "@nearform/observer-samples": "^0.0.2",
-    "@nearform/observer-sdk": "^0.0.2",
-    "@nearform/observer-shell": "^0.0.2",
-    "@nearform/observer-streams-table": "^0.0.2",
+    "@libp2p/observer-catalogue": "^1.0.0",
+    "@libp2p/observer-connections-table": "^1.0.0",
+    "@libp2p/observer-data": "^1.0.0",
+    "@libp2p/observer-dht-buckets": "^1.0.0",
+    "@libp2p/observer-events-table": "^1.0.0",
+    "@libp2p/observer-samples": "^1.0.0",
+    "@libp2p/observer-sdk": "^1.0.0",
+    "@libp2p/observer-shell": "^1.0.0",
+    "@libp2p/observer-streams-table": "^1.0.0",
     "arraybuffer-loader": "^1.0.8",
     "craco-babel-loader": "^0.1.4",
     "react": "^16.11.0",
