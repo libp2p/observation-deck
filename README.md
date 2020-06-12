@@ -2,7 +2,7 @@
 
 **[Deployed here][1]**
 
-This page hosts a catalogue of widgets for visualising libp2p introspection data, built on [observer-toolkit](https://github.com/libp2p/observer-toolkit).
+This page hosts a catalogue of widgets for visualising libp2p introspection data, built on the [libp2p observer-toolkit](https://github.com/libp2p/observer-toolkit).
 
 <!-- MarkdownTOC -->
 
