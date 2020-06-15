@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/observation-deck/static/js/main.a56e247e.chunk.js",
-    "main.js.map": "/observation-deck/static/js/main.a56e247e.chunk.js.map",
+    "main.js": "/observation-deck/static/js/main.33ecccdb.chunk.js",
+    "main.js.map": "/observation-deck/static/js/main.33ecccdb.chunk.js.map",
     "runtime-main.js": "/observation-deck/static/js/runtime-main.8a063c01.js",
     "runtime-main.js.map": "/observation-deck/static/js/runtime-main.8a063c01.js.map",
-    "static/js/2.c5b0b522.chunk.js": "/observation-deck/static/js/2.c5b0b522.chunk.js",
-    "static/js/2.c5b0b522.chunk.js.map": "/observation-deck/static/js/2.c5b0b522.chunk.js.map",
+    "static/js/2.19e66f7e.chunk.js": "/observation-deck/static/js/2.19e66f7e.chunk.js",
+    "static/js/2.19e66f7e.chunk.js.map": "/observation-deck/static/js/2.19e66f7e.chunk.js.map",
     "index.html": "/observation-deck/index.html",
-    "precache-manifest.623ba2546bfd6db199488c83d808fd54.js": "/observation-deck/precache-manifest.623ba2546bfd6db199488c83d808fd54.js",
+    "precache-manifest.cb00f80c86941567ff8829509cc7c902.js": "/observation-deck/precache-manifest.cb00f80c86941567ff8829509cc7c902.js",
     "service-worker.js": "/observation-deck/service-worker.js",
     "static/media/IBMPlexMono-Light.otf": "/observation-deck/static/media/IBMPlexMono-Light.f9679767.otf",
     "static/media/IBMPlexMono-SemiBold.otf": "/observation-deck/static/media/IBMPlexMono-SemiBold.dbf7ec0b.otf",
@@ -21,17 +21,17 @@
     "static/media/IBMPlexSans-Text.otf": "/observation-deck/static/media/IBMPlexSans-Text.9ac3a2a3.otf",
     "static/media/Nexa-Bold.otf": "/observation-deck/static/media/Nexa-Bold.254370af.otf",
     "static/media/Nexa-Light.otf": "/observation-deck/static/media/Nexa-Light.5c6f5c99.otf",
-    "static/media/sample-1min.mock": "/observation-deck/static/media/sample-1min.2077c6b7.mock",
-    "static/media/sample-1min.png": "/observation-deck/static/media/sample-1min.7e73cafb.png",
-    "static/media/sample-2min.png": "/observation-deck/static/media/sample-2min.1041f345.png",
-    "static/media/sample-2min.mock": "/observation-deck/static/media/sample-2min.fac6d640.mock",
-    "static/media/sample-3min.mock": "/observation-deck/static/media/sample-3min.2ee80723.mock",
-    "static/media/sample-3min.png": "/observation-deck/static/media/sample-3min.e30f2a1b.png",
-    "static/media/screenshot.png": "/observation-deck/static/media/screenshot.e1a6ab62.png"
+    "static/media/sample-1min.png": "/observation-deck/static/media/sample-1min.8b46e215.png",
+    "static/media/sample-1min.mock": "/observation-deck/static/media/sample-1min.ac42d47f.mock",
+    "static/media/sample-2min.png": "/observation-deck/static/media/sample-2min.077df4bb.png",
+    "static/media/sample-2min.mock": "/observation-deck/static/media/sample-2min.b34bf2ae.mock",
+    "static/media/sample-3min.mock": "/observation-deck/static/media/sample-3min.0fe7870c.mock",
+    "static/media/sample-3min.png": "/observation-deck/static/media/sample-3min.6aaa935e.png",
+    "static/media/screenshot.png": "/observation-deck/static/media/screenshot.e115114c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8a063c01.js",
-    "static/js/2.c5b0b522.chunk.js",
-    "static/js/main.a56e247e.chunk.js"
+    "static/js/2.19e66f7e.chunk.js",
+    "static/js/main.33ecccdb.chunk.js"
   ]
 }
